@@ -1,6 +1,15 @@
 # Amp Types table
 
-For firmware version 1.0.2.
+**Tested on:**
+✓ Firmware `1.0.2`
+✓ Katana-100 Combo
+
+**Attribution:**
+Much inspired by https://github.com/snhirsch/katana-midi-bridge.
+SysEx & TLS parameter found by https://github.com/Beanow.
+GT-100 names from [GT-100 / GT-001 MIDI spec](http://cdn.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf).
+
+### Notes
 
 SysEx address to assign the amp type byte: `0x60 0x00 0x00 0x51`.
 In a `.tls` file, assign the TLS number to: `preamp_a_type`.
@@ -9,14 +18,14 @@ In a `.tls` file, assign the TLS number to: `preamp_a_type`.
 
 ## Acoustic
 
-TLS | SysEx | GT-100 Name | Katana Type
+TLS | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **1** | **01** | **FULL RANGE** | **Acoustic**
 25 | 19 | CUSTOM | Acoustic
 
 ## Clean
 
-TLS | SysEx | GT-100 Name | Katana Type
+TLS | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **8** | **08** | **JC-120** | **Clean**
 0 | 00 | NATURAL CLEAN | Clean
@@ -24,7 +33,7 @@ TLS | SysEx | GT-100 Name | Katana Type
 
 ## Crunch
 
-TLS | SysEx | GT-100 Name | Katana Type
+TLS | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **11** | **0B** | **TWEED** | **Crunch**
 2 | 02 | COMBO CRUNCH | Crunch
@@ -37,7 +46,7 @@ TLS | SysEx | GT-100 Name | Katana Type
 
 ## Lead
 
-TLS | SysEx | GT-100 Name | Katana Type
+TLS | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **24** | **18** | **5150 DRIVE** | **Lead**
 4 | 04 | HiGAIN STACK | Lead
@@ -54,7 +63,7 @@ TLS | SysEx | GT-100 Name | Katana Type
 
 ## Brown
 
-TLS | SysEx | GT-100 Name | Katana Type
+TLS | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **23** | **17** | **SLDN** | **Brown**
 5 | 05 | POWER DRIVE | Brown
