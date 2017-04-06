@@ -1,12 +1,12 @@
 # How To: use 27 amp types.
 
-**Tested on:**
-✓ Firmware `1.0.2`
-✓ Katana-100 Combo
+**Tested on:**<br>
+✓ Firmware `1.0.2`<br>
+✓ Katana-100 Combo<br>
 
 #### Contents
 
-<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Introduction](#introduction)
 - [Tone Studio and `.tsl` files](#tone-studio-and-tsl-files)
@@ -73,6 +73,8 @@ Play some notes with your guitar on this setting. You will notice it's quite low
 
 Now move the AMP TYPE knob to something else (CLEAN for example) and back to CRUNCH. This should revert the amp type back to the default (TWEED) which is much higher gain.
 
+Switch between CH1 and CH3 so it loads your saved CH3. You will be back on the DELUXE CRUNCH.
+
 ## 3rd party software
 
 Using 3rd party software should quickly become the easiest way to choose Sneaky Amps. So keep an eye on this. I will update the document when I see implementations.
@@ -87,19 +89,19 @@ In this [Reverse Engineered SysEx specification by Steven Hirsch](https://github
 
 There are two addresses associated with the amp type you can write to over SysEx. Either address immediately switches the amp type of whichever TONE SETTING you are currently on (CH1-4 or PANEL).
 
-**Default Amps `0x00 0x00 0x04 0x20`**
+### Default Amps `0x00 0x00 0x04 0x20`
 
-This is what Tone Studio uses and what corresponds to the knob on your amp.
+This is what Tone Studio uses to write to and corresponds to the knob on your amp.
 
-It's values are:
-`0x00` Acoustic
-`0x01` Clean
-`0x02` Crunch
-`0x03` Lead
-`0x04` Brown
+It's values are:<br>
+`0x00` Acoustic<br>
+`0x01` Clean<br>
+`0x02` Crunch<br>
+`0x03` Lead<br>
+`0x04` Brown<br>
 
-**Sneaky Amps `0x60 0x00 0x00 0x51`**
+### Sneaky Amps `0x60 0x00 0x00 0x51`
 
 This is the address that takes the GT-100's values for pre-amps.
-
-It's values are between `0x00` and `0x1B`. You can find the full list in the SysEx column of the [Amp Type table](../tables/amp-types.md).
+It's values are between `0x00` and `0x1B`.
+You can find the full list in the SysEx column of the [Amp Type table](../tables/amp-types.md).
