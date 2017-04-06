@@ -1,13 +1,13 @@
 # Amp Types table
 
-**Tested on:**
-✓ Firmware `1.0.2`
-✓ Katana-100 Combo
+**Tested on:**<br>
+✓ Firmware `1.0.2`<br>
+✓ Katana-100 Combo<br>
 
-**Attribution:**
-Much inspired by https://github.com/snhirsch/katana-midi-bridge.
-SysEx & TSL parameter found by https://github.com/Beanow.
-GT-100 names from [GT-100 / GT-001 MIDI spec](http://cdn.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf).
+**Attribution:**<br>
+Much inspired by https://github.com/snhirsch/katana-midi-bridge.<br>
+SysEx & TSL parameter found by https://github.com/Beanow.<br>
+GT-100 names from [GT-100 / GT-001 MIDI spec](http://cdn.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf).<br>
 
 ## Default amps
 
@@ -23,7 +23,7 @@ SysEx | GT-100 Name | Katana LED
 
 ## Sneaky Amps
 
-SysEx address to assign the amp type byte: `0x60 0x00 0x00 0x51`.
+SysEx address to assign the amp type byte: `0x60 0x00 0x00 0x51`.<br>
 In a `.tsl` file, assign the TSL number to: `preamp_a_type`.
 
 **Bold** = Default amp when using the Katana's knob / tone studio.

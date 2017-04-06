@@ -30,7 +30,7 @@ The `.tsl` files are JSON formatted livesets you can in/export in Boss Tone Stud
 
 **Export the Liveset you want to edit.**
 
-![Export liveset](img/export-ls.png)
+> ![Export liveset](img/export-ls.png)
 
 Note the position of the patch you want to edit. In our case it's the 3rd one.
 
@@ -38,7 +38,7 @@ Note the position of the patch you want to edit. In our case it's the 3rd one.
 
 Search for `"preamp_a_type"`, it should have the same number of matches as there are patches in this liveset. Cycle through them until you find the one you want to edit. In our case the 3rd.
 
-![Find setting](img/tsl-preamp.png)
+> ![Find setting](img/tsl-preamp.png)
 
 **Replace the number using the table**
 
@@ -52,15 +52,15 @@ TSL | SysEx | GT-100 Name | Katana LED
 
 The TSL number 12 is the one you want to use.
 
-![Edit setting](img/tsl-preamp-edit.png)
+> ![Edit setting](img/tsl-preamp-edit.png)
 
 **Save, import and drag**
 
-![Import liveset](img/import-ls.png)
+> ![Import liveset](img/import-ls.png)
 
 Importing your edited file will create a new entry in your librarian. The left one will be your edited version. Drag the edited patch "Patch Three" to any of your preset. For example CH3.
 
-![Drag to CH3](img/drag-ch3.png)
+> ![Drag to CH3](img/drag-ch3.png)
 
 Now whenever you select CH3 it should load your patch with the DELUXE CRUNCH amp.
 And as the table indicates, the LED should light up at Crunch.
