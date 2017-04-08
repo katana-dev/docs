@@ -28,12 +28,22 @@ In a `.tsl` file, assign the TSL number to: `preamp_a_type`.
 
 **Bold** = Default amp when using the Katana's knob / tone studio.
 
+### Custom
+
+The CUSTOM amp is unique and lets you change a number of extra parameters to basically design your own amp model based on several amp templates.
+Boss gave it the Acoustic LED on the Katana, but I decided to list it separately since it can do a lot more than just flat response.
+
+TSL | SysEx | GT-100 Name | Katana LED
+:-:|:-:|-:|:-
+25 | 0x19 | CUSTOM | Acoustic
+
+Take a look at the [How To guide](../how-to/use-28-amp-types.md) to see how to configure this.
+
 ### Acoustic
 
 TSL | SysEx | GT-100 Name | Katana LED
 :-:|:-:|-:|:-
 **1** | **0x01** | **FULL RANGE** | **Acoustic**
-25 | 0x19 | CUSTOM | Acoustic
 
 ### Clean
 

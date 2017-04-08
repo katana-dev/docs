@@ -1,4 +1,4 @@
-# How To: use 27 amp types.
+# How To: use 28 amp types.
 
 **Tested on:**<br>
 ✓ Firmware `1.0.2`<br>
@@ -19,9 +19,11 @@
 
 ## Introduction
 
-The Boss Katana amp, at the time of writing contains 27 amp types, of which only 5 are made available by default. These 27 amps appear to be the same as the Boss GT-100 pre-amps.
+The Boss Katana amp contains 28 amp types, of which only 5 are made available by default. These 28 amps appear to be the same as the Boss GT-100 pre-amps.
 
 There's a few ways to select what I like to call **Sneaky Amps** and use them in your patches.
+
+One of these amps is the CUSTOM amp, which lets you change a number of extra parameters to change how the amp behaves. Right now the easiest way to use this is through 3rd party software.
 
 **Heads up!**
 Different amp types have different output volumes, even with the same GAIN & VOLUME settings. Test out new settings at a lower MASTER volume to avoid sudden loud noises.
@@ -81,6 +83,14 @@ Click the type dropdown menu.
 As soon as you hover over a different amp type your Katana should switch to it **right away**. This will take around a second to do every time so try not to move too fast, or you could select the wrong amp.
 
 ![KFF amp type](img/kff-amp-type.png) For more info on each amp, check the [Amp Type table](../tables/amp-types.md).
+
+**Custom amp**
+
+The CUSTOM amp has additional parameters that lets you create your own kind of amp model based off of some templates. To do this press the **right mouse button** on the type selector.
+
+![KFF Custom amp](img/kff-custom-amp.png)
+
+Not every parameter works, such as T-COMP and GAIN SW. But the others do, allowing for very interesting CUSTOM amp settings.
 
 **After this**
 
