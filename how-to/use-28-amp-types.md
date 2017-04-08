@@ -35,7 +35,7 @@ Different amp types have different output volumes, even with the same GAIN & VOL
 
 One approach to use the Sneaky Amps that does not require any special software tinkering is using the Sneaky Amps liveset. It's a combination of all Sneaky Amps and separate entries with their BRIGHT setting enabled. Which makes a total of 30.
 
-**Download here [katana-dev/docs: SneakyAmpsBlank.tsl](https://raw.githubusercontent.com/katana-dev/docs/master/resources/SneakyAmpsBlank.tsl)**
+**Download here [katana-dev/docs: SneakyAmpsBlank.zip](https://raw.githubusercontent.com/katana-dev/docs/master/resources/SneakyAmpsBlank.zip)**
 
 ![Sneaky Amps liveset](img/tsl-sneakyamps.png)
 
@@ -47,7 +47,9 @@ If you want to test it, have a look at the 3rd party software.
 
 **Using the liveset**
 
-The settings for each amp is the same and super boring.
+Unzip the liveset and import `SneakyAmpsBlank.tsl` in Boss Tone Studio.
+
+The settings for each amp are the same and super boring.
 So either drag the amp you are interested in to a CH1-4 slot.
 Or click it to load the patch as a preview.
 
