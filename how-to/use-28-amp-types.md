@@ -11,10 +11,11 @@
 <!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Introduction](#introduction)
+- [Sneaky Amps liveset](#sneaky-amps-liveset)
 - [3rd party software method](#3rd-party-software-method)
 	- [KATANAFxFloorBoard](#katanafxfloorboard)
 	- [Katana Editor for Android](#katana-editor-for-android)
-- [Tone Studio and `.tsl` files method](#tone-studio-and-tsl-files-method)
+- [Manually editing Tone Studios `.tsl` files](#manually-editing-tone-studios-tsl-files)
 - [SysEx MIDI messages method](#sysex-midi-messages-method)
 
 <!-- /TOC -->
@@ -29,6 +30,30 @@ One of these amps is the CUSTOM amp, which lets you change a number of extra par
 
 **Heads up!**
 Different amp types have different output volumes, even with the same GAIN & VOLUME settings. Test out new settings at a lower MASTER volume to avoid sudden loud noises.
+
+## Sneaky Amps liveset
+
+One approach to use the Sneaky Amps that does not require any special software tinkering is using the Sneaky Amps liveset. It's a combination of all Sneaky Amps and separate entries with their BRIGHT setting enabled. Which makes a total of 30.
+
+**Download here [katana-dev/docs: SneakyAmpsBlank.tsl](https://raw.githubusercontent.com/katana-dev/docs/master/resources/SneakyAmpsBlank.tsl)**
+
+![Sneaky Amps liveset](img/tsl-sneakyamps.png)
+
+The "BR" prefix has the bright setting turned on.
+
+The only Sneaky Amp that is excluded is the CUSTOM amp.
+This one is nice to try out when you have access to all the extra settings it comes with.
+If you want to test it, have a look at the 3rd party software.
+
+**Using the liveset**
+
+The settings for each amp is the same and super boring.
+So either drag the amp you are interested in to a CH1-4 slot.
+Or click it to load the patch as a preview.
+
+Do not use your AMP TYPE knob on the Katana or in Tone Studio. As this will change your amp to one of the default 5. Everything else is free game.
+
+When you are doing dialing in a tone you like, I would recommend using the **buttons on the amp** to save your tone to CH1-4. This is the most surefire way to save it. Sometimes Tone Studio forgets you are working with a Sneaky Amp, but your Katana will not.
 
 ## 3rd party software method
 
@@ -142,7 +167,7 @@ You should hear the effect right away when you pick a different amp.
 
 Being able to edit the custom amp will be added soon&trade;.
 
-## Tone Studio and `.tsl` files method
+## Manually editing Tone Studios `.tsl` files
 
 The `.tsl` files are JSON formatted livesets you can in/export in Boss Tone Studio for Katana. By editing these files, you are able to choose any of the 27 amp types.
 
