@@ -105,11 +105,10 @@ Keep in mind this is an experimental release. Changing other settings may not wo
 ### Katana Editor for Android
 
 By condor from VGuitarForums.
-Available as a zip attachment there: http://www.vguitarforums.com/smf/index.php?topic=20234.msg147575#msg147575
-Look for "KatanaEditor8.zip" it's easy to overlook the download.
+Available as a zip attachment there: http://www.vguitarforums.com/smf/index.php?topic=20234.msg148529#msg148529
+Look for "KatanaEditor9.zip" it's easy to overlook the download.
 
-Note: the developer mentioned they will add an easier way to choose Sneaky Amps soon&trade;.
-In future versions this may be as easy as selecting the Sneaky Amp from a list.
+As of version 9, you can select Sneaky Amps directly from the app.
 
 **Installing**
 
@@ -129,30 +128,17 @@ Select KatanaEditor and give it any required permissions when asked.
 At first all settings may show up incorrect. This is a known issue with the current version.
 Try to move some knobs on your Katana as well as sliders on the app until the app syncs and accurately shows what your amp settings are.
 
-**Sending a SysEx message**
+**Long press Amp**
 
-Use the menu (top right) and select "Show Test Screen".
-At the bottom you will find some inputs.
+Long press the Amp button to get a dropdown for all Sneaky Amps.
 
-The **address** you should enter is `60 00 00 51`.
+![Long press to win at music](img/andr-katanaeditor-sneakyamps.png)
 
-The **value** is the SysEx number for the Sneaky Amp you want, without the `0x` in front.
-Take a look at the [Amp Type table](../tables/amp-types.md) and pick a Sneaky Amp.
+You should hear the effect right away when you pick a different amp.
 
-For example:
+**Custom amp**
 
-TSL | SysEx | GT-100 Name | Katana LED
-:-:|:-:|-:|:-
-27 | 0x1B | ORNG RB | Brown
-
-The correct value for the ORNG RB is `1B`.
-
-![Android KatanaEditor SysEx](img/andr-katanaeditor-sysex.png)
-Address `60 00 00 51` for Sneaky Amps, value `1B` for ORNG RB.
-
-**That's it**
-
-Press SendTx and your Katana should switch to the ORNG RB right away.
+Being able to edit the custom amp will be added soon&trade;.
 
 ## Tone Studio and `.tsl` files method
 
