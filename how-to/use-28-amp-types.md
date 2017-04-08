@@ -55,7 +55,7 @@ Or click it to load the patch as a preview.
 
 Do not use your AMP TYPE knob on the Katana or in Tone Studio. As this will change your amp to one of the default 5. Everything else is free game.
 
-When you are doing dialing in a tone you like, I would recommend using the **buttons on the amp** to save your tone to CH1-4. This is the most surefire way to save it. Sometimes Tone Studio forgets you are working with a Sneaky Amp, but your Katana will not.
+When you are done dialing in a tone you like, I would recommend using the **buttons on the amp** to save your tone to CH1-4. This is the most surefire way to save it. Sometimes Tone Studio forgets you are working with a Sneaky Amp and glitches out, but your Katana will not.
 
 ## 3rd party software method
 
