@@ -11,6 +11,7 @@
 - [Introduction](#introduction)
 - [3rd party software method](#3rd-party-software-method)
 	- [KATANAFxFloorBoard](#katanafxfloorboard)
+	- [Katana Editor for Android](#katana-editor-for-android)
 - [Tone Studio and `.tsl` files method](#tone-studio-and-tsl-files-method)
 - [SysEx MIDI messages method](#sysex-midi-messages-method)
 
@@ -90,6 +91,58 @@ Saving your Sneaky Amp to a TONE SETTING (CH1-4) **does work**. And you can use 
 **Experimental release**
 
 Keep in mind this is an experimental release. Changing other settings may not work as intended.
+
+### Katana Editor for Android
+
+By condor from VGuitarForums.
+Available as a zip attachment there: http://www.vguitarforums.com/smf/index.php?topic=20234.msg147575#msg147575
+Look for "KatanaEditor8.zip" it's easy to overlook the download.
+
+Note: the developer mentioned they will add an easier way to choose Sneaky Amps soon&trade;.
+In future versions this may be as easy as selecting the Sneaky Amp from a list.
+
+**Installing**
+
+Extract the .apk file from the zip. Transfer this file to your Android and install it.
+For example by using a file manager app.
+
+wikiHow has a guide to help with this step. http://www.wikihow.tech/Manually-Install-Android-Apps
+
+**Connecting**
+
+You will need a USB On-The-Go (OTG) cable.
+With that, connect your Android directly to the Katana's USB port.
+
+Your phone will ask you, which app to open this USB device with.
+Select KatanaEditor and give it any required permissions when asked.
+
+At first all settings may show up incorrect. This is a known issue with the current version.
+Try to move some knobs on your Katana as well as sliders on the app until the app syncs and accurately shows what your amp settings are.
+
+**Sending a SysEx message**
+
+Use the menu (top right) and select "Show Test Screen".
+At the bottom you will find some inputs.
+
+The **address** you should enter is `60 00 00 51`.
+
+The **value** is the SysEx number for the Sneaky Amp you want, without the `0x` in front.
+Take a look at the [Amp Type table](../tables/amp-types.md) and pick a Sneaky Amp.
+
+For example:
+
+TSL | SysEx | GT-100 Name | Katana LED
+:-:|:-:|-:|:-
+27 | 0x1B | ORNG RB | Brown
+
+The correct value for the ORNG RB is `1B`.
+
+![Android KatanaEditor SysEx](img/andr-katanaeditor-sysex.png)
+Address `60 00 00 51` for Sneaky Amps, value `1B` for ORNG RB.
+
+**That's it**
+
+Press SendTx and your Katana should switch to the ORNG RB right away.
 
 ## Tone Studio and `.tsl` files method
 
