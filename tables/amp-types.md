@@ -2,7 +2,9 @@
 
 **Tested on:**<br>
 ✓ Firmware `1.0.2`<br>
+✓ Katana-50 Combo<br>
 ✓ Katana-100 Combo<br>
+✓ Katana Head<br>
 
 **Attribution:**<br>
 Much inspired by https://github.com/snhirsch/katana-midi-bridge.<br>
