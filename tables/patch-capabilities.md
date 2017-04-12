@@ -9,6 +9,19 @@ Used a lot of [https://github.com/snhirsch/katana-midi-bridge](https://github.co
 The [KATANAFxFloorBoard application](https://sourceforge.net/projects/fxfloorboard/files/experimental/) by Colin Willcocks is very helpful.<br>
 GT-100 references from [GT-100 / GT-001 MIDI spec](http://cdn.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf).<br>
 
+#### Contents
+
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Sneaky Patch features](#sneaky-patch-features)
+	- [Confirmed](#confirmed)
+	- [Unconfirmed](#unconfirmed)
+- [About the SysEx information](#about-the-sysex-information)
+- [SysEx Patch locations](#sysex-patch-locations)
+- [SysEx Patch blocks](#sysex-patch-blocks)
+
+<!-- /TOC -->
+
 ## Sneaky Patch features
 
 Let me start with what you all want to know:<br>
@@ -39,6 +52,8 @@ EXP SW | The expression pedal switch.<br>It's parameters can be changed, but I h
 Master BPM,<br>Key and Beat | These values can be set, but I've not confirmed if any effects are using it.
 Manual Mode | On the GT-100, manual mode lets you assign effects to each of the stomp buttons.<br>These assignments are not disabled. But where are the buttons?<br>And how do we enter manual mode? Perhaps it has an effect on the GA-FC?
 Patch Category | A category can be set for the patch (ex: Country, Rock, Metal, USER 1).<br>I haven't found any place where this is displayed or used. The `.tsl` do store it.
+
+---
 
 ## About the SysEx information
 
