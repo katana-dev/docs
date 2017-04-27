@@ -13,6 +13,10 @@ License: CC-BY-SA-4.0
 
 - [Sneaky Amps (Blank) liveset](https://github.com/katana-dev/docs/raw/master/resources/SneakyAmpsBlank.zip)
 
+### Raw data
+
+- [TSL v1.0.0 parameter mapping](data/tsl-map-1.0.0.csv)
+
 ## Communication
 
 **Development chatroom**
