@@ -1,0 +1,72 @@
+MakeNamedMaterial "ClearMetal"
+	"float uroughness" [0.02]
+	"float vroughness" [0.02]
+	"string type" ["metal"]
+	"string name" ["aluminium"]
+
+MakeNamedMaterial "DullMetal"
+	"float uroughness" [0.09]
+	"float vroughness" [0.09]
+	"string type" ["metal"]
+	"string name" ["aluminium"]
+
+MakeNamedMaterial "BlackMetal"
+	"color Kd" [0.00005 0.00005 0.00005]
+	"color Ks" [0.0004 0.0004 0.0004]
+	"float uroughness" [0.2]
+	"float vroughness" [0.2]
+	"string type" ["glossy"]
+
+MakeNamedMaterial "BlackDullMetal"
+    "color Kd" [0.00002 0.00002 0.00002]
+    "color Ks" [0.0003 0.0003 0.0003]
+    "float uroughness" [0.4]
+    "float vroughness" [0.4]
+    "string type" ["glossy"]
+
+MakeNamedMaterial "Corners"
+	"color Kd" [0.00001 0.00001 0.00001]
+	"color Ks" [0.0005 0.0005 0.0005]
+	"float uroughness" [0.5]
+	"float vroughness" [0.5]
+	"string type" ["glossy"]
+
+MakeNamedMaterial "FrameMaterial"
+    "color Kd" [0.00005 0.00005 0.00005]
+    "color Ks" [0.0005 0.0005 0.0005]
+    "float uroughness" [0.1]
+    "float vroughness" [0.1]
+    "string type" ["glossy"]
+
+MakeNamedMaterial "FeetMat"
+    "color Kd" [0.0001 0.0001 0.0001]
+    "float sigma" [40]
+    "string type" ["matte"]
+	
+MakeNamedMaterial "StickerMat"
+    "color Kd" [0.001 0.001 0.001]
+    "float sigma" [0]
+    "string type" ["matte"]
+
+MakeNamedMaterial "StickerWhite"
+    "color Kd" [0.3 0.3 0.3]
+    "float sigma" [0]
+    "string type" ["matte"]
+
+MakeNamedMaterial "SilverStrip"
+    "color Kd" [0.1 0.1 0.1]
+    "float sigma" [0]
+    "string type" ["matte"]
+
+Texture "TexMeshColor" "color" "imagemap"
+	"string filename" ["mesh-texture.jpg"]
+	"float gamma" [4.8]
+	"string mapping" ["planar"]
+	"vector v1" [0.002 0 0]
+	"vector v2" [0 0 -0.002]
+	"string wrap" ["repeat"]
+
+MakeNamedMaterial "FrontMesh"
+	"texture Kd" ["TexMeshColor"]
+    "float sigma" [0]
+    "string type" ["matte"] 
