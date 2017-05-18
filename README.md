@@ -19,9 +19,10 @@ License: CC-BY-SA-4.0
 
 ## Communication
 
-**Development chatroom**
+**Chatrooms**
 
-- [Gitter: katana-dev](https://gitter.im/katana-dev)
+- [Slack: bosskatanaunofficial](https://bosskatanaunofficial.slack.com) (General Katana chat)
+- [Gitter: katana-dev](https://gitter.im/katana-dev) (Development specific)
 
 _For discussing Katana software development and reverse engineering in a chatroom style._
 
