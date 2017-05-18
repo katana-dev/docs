@@ -35,10 +35,11 @@ _To keep track of particular bugs/issues or discussions in an organized way._
 
 **VGuitarForums**
 
-- (Forum) [Boss Katana Amp - Examples](http://www.vguitarforums.com/smf/index.php?board=232.0)
+- (Forum) [Katana Dev](http://www.vguitarforums.com/smf/index.php?board=240.0)
 - [Katana FxFloorBoard Editor](http://www.vguitarforums.com/smf/index.php?topic=20625.0)
 - [Katana Editor for Android](http://www.vguitarforums.com/smf/index.php?topic=20234.0)
 - [Katana MIDI Bridge for RPI / BeagleBone SBC](http://www.vguitarforums.com/smf/index.php?topic=19782.0)
+- [Katana Patch Loader](http://www.vguitarforums.com/smf/index.php?topic=20421.0)
 
 _Most devs share their work with other Katana owners here.<br>
 An active group of people use the different software and share feedback._
