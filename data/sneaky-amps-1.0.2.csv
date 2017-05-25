@@ -1,29 +1,29 @@
-TSL,SysEx,GT-100 Name,Katana LED,Default,Bright,Comments
-25,0x19,CUSTOM,Acoustic,,,This is a custom preamp. You can customize it however you like to match the sound you want.
-1,0x01,FULL RANGE,Acoustic,✓,,An amp with a broad frequency range and an extremely flat response. Good for acoustic guitar.
-8,0x08,JC-120,Clean,✓,✓✓,This models the sound of the Roland JC-120.
-0,0x00,NATURAL CLEAN,Clean,,✓,"An unembellished, clean sound that minimizes the amp’s idiosyncrasies, such as it's trebly character and boomy low end."
-9,0x09,CLEAN TWIN,Clean,,✓✓,This models a Fender Twin Reverb.
-11,0x0B,TWEED,Crunch,✓,✓,This models a Fender Bassman 4 x 10” Combo.
-2,0x02,COMBO CRUNCH,Crunch,,✓,Crunch sound that allows the nuances of your picking to be expressed even more faithfully than on conventional combo amps.
-3,0x03,STACK CRUNCH,Crunch,,,Great-feeling crunch sound that responds well to picking dynamics while retaining all the defining characteristics of a 4 x 12” speaker cabinet.
-10,0x0A,PRO CRUNCH,Crunch,,✓✓,This models a Fender Pro Reverb.
-12,0x0C,DELUXE CRUNCH,Crunch,,,This models a Fender Deluxe Reverb.
-13,0x0D,VO DRIVE,Crunch,,,This models the drive sound of a VOX AC-30TB. This is a sound that it suited to sixties-style British rock.
-14,0x0E,VO LEAD,Crunch,,,This models the lead sound of the VOX AC-30TB.
-15,0x0F,MATCH DRIVE,Crunch,,,This models the sound input to left input on a Matchless D/C-30. A simulation of the latest tube amp widely used in styles from blues and rock.
-24,0x18,5150 DRIVE,Lead,✓,,This models the lead channel of a Peavey EVH 5150.
-4,0x04,HiGAIN STACK,Lead,,,High-gain sound of a vintage Marshall specially revamped in a way that is possible only with COSM modeling technology.
-6,0x06,EXTREME LEAD,Lead,,,A new type of sound that smoothes out the uneven frequency response that is typical of existing large stack amps.
-7,0x07,CORE METAL,Lead,,,A large stack sound that has been tweaked extensively in the pursuit of the ultimate metal sound.
-16,0x10,BG LEAD,Lead,,✓✓,This models the lead sound of the MESA/Boogie combo amp. The sound of a tube amp typical of the late ‘70s to ‘80s.
-17,0x11,BG DRIVE,Lead,,✓✓,This models a MESA/Boogie with TREBLE SHIFT SW on.
-18,0x12,MS1959 I,Lead,,,This models the sound input to Input I on a Marshall 1959. This is a trebly sound suited to hard rock.
-19,0x13,MS1959 I+II,Lead,,,"The sound of connecting inputs I and II of the guitar amp in parallel, creating a sound with a stronger low end than I."
-20,0x14,R-FIER VINTAGE,Lead,,,Models the sound of the Channel 2 VINTAGE Mode on the MESA/Boogie DUAL Rectifier.
-21,0x15,R-FIER MODERN,Lead,,,Models the sound of the Channel 2 MODERN Mode on the MESA/Boogie DUAL Rectifier.
-22,0x16,T-AMP LEAD,Lead,,,This models a Hughes & Kettner Triamp AMP3.
-26,0x1A,BGNR UB,Lead,,,
-23,0x17,SLDN,Brown,✓,,This models a Soldano SLO-100. This is the typical sound of the eighties.
-5,0x05,POWER DRIVE,Brown,,,"A straight drive sound that works well in a broad range of situations, from backing to lead. A sound like this cannot be obtained from any existing combo amp or stack amp."
-27,0x1B,ORNG RB,Brown,,,
+TSL,SysEx,GT-100 Name,Default,Katana LED,Bright,Comments
+25,0x19,CUSTOM,,Acoustic,,This is a custom preamp. You can customize it however you like to match the sound you want.
+1,0x01,FULL RANGE,✓,Acoustic,,An amp with a broad frequency range and an extremely flat response. Good for acoustic guitar.
+8,0x08,JC-120,✓,Clean,✓✓,This models the sound of the Roland JC-120.
+0,0x00,NATURAL CLEAN,,Clean,✓,"An unembellished, clean sound that minimizes the amp’s idiosyncrasies, such as it's trebly character and boomy low end."
+9,0x09,CLEAN TWIN,,Clean,✓✓,This models a Fender Twin Reverb.
+11,0x0B,TWEED,✓,Crunch,✓,This models a Fender Bassman 4 x 10” Combo.
+2,0x02,COMBO CRUNCH,,Crunch,✓,Crunch sound that allows the nuances of your picking to be expressed even more faithfully than on conventional combo amps.
+3,0x03,STACK CRUNCH,,Crunch,,Great-feeling crunch sound that responds well to picking dynamics while retaining all the defining characteristics of a 4 x 12” speaker cabinet.
+10,0x0A,PRO CRUNCH,,Crunch,✓✓,This models a Fender Pro Reverb.
+12,0x0C,DELUXE CRUNCH,,Crunch,,This models a Fender Deluxe Reverb.
+13,0x0D,VO DRIVE,,Crunch,,This models the drive sound of a VOX AC-30TB. This is a sound that it suited to sixties-style British rock.
+14,0x0E,VO LEAD,,Crunch,,This models the lead sound of the VOX AC-30TB.
+15,0x0F,MATCH DRIVE,,Crunch,,This models the sound input to left input on a Matchless D/C-30. A simulation of the latest tube amp widely used in styles from blues and rock.
+24,0x18,5150 DRIVE,✓,Lead,,This models the lead channel of a Peavey EVH 5150.
+4,0x04,HiGAIN STACK,,Lead,,High-gain sound of a vintage Marshall specially revamped in a way that is possible only with COSM modeling technology.
+6,0x06,EXTREME LEAD,,Lead,,A new type of sound that smoothes out the uneven frequency response that is typical of existing large stack amps.
+7,0x07,CORE METAL,,Lead,,A large stack sound that has been tweaked extensively in the pursuit of the ultimate metal sound.
+16,0x10,BG LEAD,,Lead,✓✓,This models the lead sound of the MESA/Boogie combo amp. The sound of a tube amp typical of the late ‘70s to ‘80s.
+17,0x11,BG DRIVE,,Lead,✓✓,This models a MESA/Boogie with TREBLE SHIFT SW on.
+18,0x12,MS1959 I,,Lead,,This models the sound input to Input I on a Marshall 1959. This is a trebly sound suited to hard rock.
+19,0x13,MS1959 I+II,,Lead,,"The sound of connecting inputs I and II of the guitar amp in parallel, creating a sound with a stronger low end than I."
+20,0x14,R-FIER VINTAGE,,Lead,,Models the sound of the Channel 2 VINTAGE Mode on the MESA/Boogie DUAL Rectifier.
+21,0x15,R-FIER MODERN,,Lead,,Models the sound of the Channel 2 MODERN Mode on the MESA/Boogie DUAL Rectifier.
+22,0x16,T-AMP LEAD,,Lead,,This models a Hughes & Kettner Triamp AMP3.
+26,0x1A,BGNR UB,,Lead,,
+23,0x17,SLDN,✓,Brown,,This models a Soldano SLO-100. This is the typical sound of the eighties.
+5,0x05,POWER DRIVE,,Brown,,"A straight drive sound that works well in a broad range of situations, from backing to lead. A sound like this cannot be obtained from any existing combo amp or stack amp."
+27,0x1B,ORNG RB,,Brown,,
